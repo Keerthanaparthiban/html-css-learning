@@ -1,0 +1,17 @@
+/* p.first{
+    color: red;
+}
+.second{
+    color: green;
+}
+.second.success{
+    border: 2px dashed greenyellow;
+}
+#content{
+    background-color: rgb(220, 197, 167);
+    padding: 20px;  
+} */
+div.first{
+    color: aquamarine;
+    background-color: blue;
+}
