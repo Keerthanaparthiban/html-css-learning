@@ -1,0 +1,54 @@
+/* p.first{
+    color: red;
+}
+.second{
+    color: green;
+}
+.second.success{
+    border: 2px dashed greenyellow;
+}
+#content{
+    background-color: rgb(220, 197, 167);
+    padding: 20px;  
+} */
+div .first{
+    color:blanchedalmond;
+    background-color: blueviolet;
+    padding: 20px;
+}
+.second{
+    color: blueviolet;
+    font-size: 15px;
+    border: dashed 2px;
+}
+
+/* div.first{
+    color: aquamarine;
+    background-color: blue;
+} */
+
+/* div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+p{
+    border: inherit;
+    margin: inherit;
+    color: khaki;
+} */
+
+a[href="https://www.geeksforgeeks.org/css-class-selector/"]{
+    background-color: rgb(197, 193, 193);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a[href*="hubspot"]{
+    background-color: rgb(195, 167, 222);
+}
+a[href$=".asp#"]{
+    background-color: violet;
+}
