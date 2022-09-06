@@ -5,20 +5,24 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <img src="image/68-686838_blood-drop-cartoon-png-blood-drop-clipart-transparent.png"blood drop pic">
-        <h1>Blood Donation Form</h1>
-        <h3>DONATE BLOOD AND SAVE A LIFE</h3>
-        <p>Confidential - Please answer the following questions correctly. This will help to protect you and the patient who receives your blood.</p>
+        
+            <!--<img src="image/68-686838_blood-drop-cartoon-png-blood-drop-clipart-transparent.png"blood drop pic">-->
+            <div class="top">
+            <h1> <img align="left" width="100" height="100" src="image/blood-transfusion-happy-heart-shaped-bag-vector-image-process-getting-donate-179949763.jpg" alt="">
+                Blood Donation Form</h1>
+            <h3>DONATE BLOOD AND SAVE A LIFE</h3>
+            <p class="con">Confidential - Please answer the following questions correctly. This will help to protect you and the patient who receives your blood.</p>
+        </div>
+        <div class="bot">
         <form action="">
-            <div>
-                <p>Full Name</p>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" required>
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" required>
+                <p>1. Full Name</p>
+                <label for="fname">First Name</label>&nbsp;
+                <input type="text" id="fname" style="width: 9cm;"  required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="lname">Last Name</label>&nbsp;
+                <input type="text" id="lname" style="width: 9cm;" required>
                 <br>
-                <p>Age</p>
-                <label for="age"></label>
+                <p>2. Age</p>
+                <label for="age"></label>&nbsp;
                 <select name="age" id="age">
                     <option value="q1">10-25</option>
                     <option value="q2">26-45</option>
@@ -26,138 +30,134 @@
                     <option value="q3">60+</option>
                 </select>
                 <br>
-                <p>Birth Date</p>
-                <label for="dob"></label>
+                <p>3. Birth Date</p>
+                <label for="dob"></label>&nbsp;
                 <input type="date" id="dob" required><br>
-                <p>What is your blood type?</p>
+                <p>4. What is your blood type?</p>&nbsp;
                 <input type="radio" id="btype1" name="btype" required>
-                <label for="btype1">O+</label><br>
+                <label for="btype1">O+</label><br>&nbsp;
                 <input type="radio" id="btype2" name="btype" required>
-                <label for="btype2">O-</label><br>
+                <label for="btype2">O-</label><br>&nbsp;
                 <input type="radio" id="btype3" name="btype" required>
-                <label for="btype3">A+</label><br>
+                <label for="btype3">A+</label><br>&nbsp;
                 <input type="radio" id="btype4" name="btype" required>
-                <label for="btype4">A-</label><br>
+                <label for="btype4">A-</label><br>&nbsp;
                 <input type="radio" id="btype5" name="btype" required>
-                <label for="btype5">B+</label><br>
+                <label for="btype5">B+</label><br>&nbsp;
                 <input type="radio" id="btype6" name="btype" required>
-                <label for="btype6">B-</label><br>
+                <label for="btype6">B-</label><br>&nbsp;
                 <input type="radio" id="btype7" name="btype" required>
-                <label for="btype7">AB+</label><br>
+                <label for="btype7">AB+</label><br>&nbsp;
                 <input type="radio" id="btype8" name="btype" required>
                 <label for="btype8">AB-</label>
                 <br>
-                <p>Gender</p>
+                <p>5. Gender</p>&nbsp;
                 <label for="gender"></label>
                 <input type="radio" id="gender" value="Male" name="gender" required>Male
                 <input type="radio" id="gender" value="Female" name="gender" required>Female
                 <input type="radio" id="gender" value="Other" name="gender" required>Other
                 <br>
-                <p>Occupation</p>
-                <label for="occupation"></label>
+                <p>6. Occupation</p>
+                <label for="occupation"></label>&nbsp;
                 <input type="text" id="occupation" required>
                 <br>
-                <p>Contact Number</p>
-                <label for="no"></label>
+                <p>7. Contact Number</p>
+                <label for="no"></label>&nbsp;
                 <input type="tel" id="no" required>
                 <br>
-                <p>Email</p>
-                <label for="email"></label>
+                <p>8. Email</p>
+                <label for="email"></label>&nbsp;
                 <input type="email" id="email" placeholder="alex@gmail.com" required><br>
-                <p>Address</p>
-                <label for="stadd">Street Address</label>
-                <input type="text" id="stadd" required>
+                <p>9. Address</p>
+                <label for="stadd">Street Address</label>&nbsp;
+                <input type="text" id="stadd" style="width: 21.5cm;" required>&nbsp;
                 <br><br>
-                <label for="stadd1">Street Address line 2</label>
-                <input type="text" id="stadd" required>
+                <label for="city">City</label>&nbsp;
+                <input type="text" id="city" style="width: 6cm;" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="state">State</label>&nbsp;
+                <input type="text" id="state" style="width: 6cm;" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="pincode">Pincode/Zip Code</label>&nbsp;
+                <input type="text" id="pincode" style="width: cm;" required>
                 <br><br>
-                <label for="city">City</label>
-                <input type="text" id="city" required>
-                <label for="state">State</label>
-                <input type="text" id="state" required>
-                <label for="pincode">Pincode/Zip Code</label>
-                <input type="text" id="pincode" required>
-                <br><br>
-                <label for="weight">Weight</label>
-                <input type="text" id="weight" required>
-                <label for="height">height</label>
-                <input type="text" id="height" required>
-                <br><br>
-                <label for="pulse">Pulse</label>
-                <input type="text" id="pulse" required>
-                <label for="bp">BP</label>
-                <input type="text" id="bp" required>
-                <br><br>
-                <label for="hb">HB</label>
-                <input type="text" id="hb" required>
-                <label for="temp">Temperature</label>
-                <input type="text" id="temp" required>
-                <br><br>
-                <p>Have you donated blood previously?</p>
+                <p>10. Weight
+                <label for="weight"></label>&nbsp;
+                <input type="text" id="weight" style="width: 3.9cm;" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                11. Height
+                <label for="height"></label>&nbsp;
+                <input type="text" id="height" style="width: 4cm;" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                12. Pulse
+                <label for="pulse"></label>&nbsp;
+                <input type="text" id="pulse" style="width: 4.3cm;" required></p>
+                <p>13. BP
+                <label for="bp"></label>&nbsp;
+                <input type="text" id="bp" style="width: 4.9cm;" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                14. Temperature
+                <label for="temp"></label>&nbsp;
+                <input type="text" id="temp" style="width: 2.5cm;" required></p>
+                <p>15. Have you donated blood previously?</p>
                 <input type="radio" id="ques1" value="Yes" name="ques">
                 <label for="ques1">Yes</label><br>
                 <input type="radio" id="ques2" value="No" name="ques">
                 <label for="ques2">No</label>
                 <br>
-                <p>When was the last time you donated blood?</p>
+                <p>16. When was the last time you donated blood?</p>
                 <label for="don"></label>
                 <input type="date" id="don" required>
                 <br>
-                <p>In the last six months have you had any of the following?</p>
-                <input type="radio" id="quest1" value="Tattooing">
+                <p>17. In the last six months have you had any of the following?</p>
+                <input type="checkbox" id="quest1" value="Tattooing">
                 <label for="quest1">Tattooing</label><br>
-                <input type="radio" id="quest2" value="Ear piercing">
+                <input type="checkbox" id="quest2" value="Ear piercing">
                 <label for="quest2">Ear piercing</label><br>
-                <input type="radio" id="quest3" value="Denatl extraction" name="que">
+                <input type="checkbox" id="quest3" value="Denatl extraction" name="que">
                 <label for="quest3">Denatl extraction</label><br>
-                <input type="radio" id="quest4" value="none" name="que">
-                <label for="quest4">none</label><br>
+                <input type="checkbox" id="quest4" value="none" name="que">
+                <label for="quest4">none</label>
                 <br>
-                <p>Do you suffer from any of the following disease?</p>
+                <p>18. Do you suffer from any of the following disease?</p>
                 <label for="disease"></label>
-                <input type="radio" id="disease" value="Heart Disease">Heart Disease <br>
-                <input type="radio" id="disease" value="Diabetes">Diabetes<br>
-                <input type="radio" id="disease" value="Lung Disease">Lung Disease<br>
-                <input type="radio" id="disease" value="Allergic Disease">Allergic Disease<br>
-                <input type="radio" id="disease" value="Sexually Transmitted Disease">Sexually Transmitted Disease <br>
-                <input type="radio" id="disease" value="Kidney Disease">Kidney Disease<br>
-                <input type="radio" id="disease" value="Cancer/ Malignant Disease">Cancer/ Malignant Disease<br>
-                <input type="radio" id="disease" value="Hepatitis B/C">Hepatitis B/C<br>
-                <input type="radio" id="disease" value="Jaundice(last one year)">Jaundice(last one year)<br>
-                <input type="radio" id="disease" value="Fainting spells">Fainting spells<br>
-                <input type="radio" id="disease" value="Epilepsy(Charay rog)">Epilepsy(Charay rog) <br>
-                <input type="radio" id="disease" value="Abnormal Bleeding Tendency">Abnormal Bleeding Tendency<br>
-                <input type="radio" id="disease" value="Typhoid(last one year)">Typhoid(last one year) <br>
-                <input type="radio" id="disease" value="Tuberculosis">Tuberculosis<br>
-                <input type="radio" id="disease" value="Malaria(last six months)">Malaria(last six months) <br>
+                <input type="checkbox" id="disease" value="Heart Disease" >Heart Disease <br>
+                <input type="checkbox" id="disease" value="Diabetes">Diabetes<br>
+                <input type="checkbox" id="disease" value="Lung Disease" >Lung Disease<br>
+                <input type="checkbox" id="disease" value="Allergic Disease">Allergic Disease<br>
+                <input type="checkbox" id="disease" value="Sexually Transmitted Disease" >Sexually Transmitted Disease <br>
+                <input type="checkbox" id="disease" value="Kidney Disease">Kidney Disease<br>
+                <input type="checkbox" id="disease" value="Cancer/ Malignant Disease">Cancer/ Malignant Disease<br>
+                <input type="checkbox" id="disease" value="Hepatitis B/C">Hepatitis B/C<br>
+                <input type="checkbox" id="disease" value="Jaundice(last one year)">Jaundice(last one year)<br>
+                <input type="checkbox" id="disease" value="Fainting spells">Fainting spells<br>
+                <input type="checkbox" id="disease" value="Epilepsy(Charay rog)">Epilepsy(Charay rog) <br>
+                <input type="checkbox" id="disease" value="Abnormal Bleeding Tendency">Abnormal Bleeding Tendency<br>
+                <input type="checkbox" id="disease" value="Typhoid(last one year)">Typhoid(last one year) <br>
+                <input type="checkbox" id="disease" value="Tuberculosis">Tuberculosis<br>
+                <input type="checkbox" id="disease" value="Malaria(last six months)">Malaria(last six months) <br>
                 
-                <p>Are you taking or have you taken any of these in the past 72 hours?</p>
-                <input type="radio" id="drug1">
+                <p>19. Are you taking or have you taken any of these in the past 72 hours?</p>
+                <input type="checkbox" id="drug1">
                 <label for="drug1">Antibiotics</label><br>
-                <input type="radio" id="drug2">
+                <input type="checkbox" id="drug2">
                 <label for="drug2">Steriods</label><br>
-                <input type="radio" id="drug3">
+                <input type="checkbox" id="drug3">
                 <label for="drug3">Alcohol</label><br>
-                <input type="radio" id="drug4">
+                <input type="checkbox" id="drug4">
                 <label for="drug4">Aspirin</label><br>
-                <input type="radio" id="drug5">
+                <input type="checkbox" id="drug5">
                 <label for="drug5">Vaccinations</label><br>
-                <input type="radio" id="drug6">
+                <input type="checkbox" id="drug6">
                 <label for="drug6">Dog Bite Rabies Vaccinations</label>
                 <br>
-                <p>Do you have any history of surgery or blood transfusion in the past six months?</p>
+                <p>20. Do you have any history of surgery or blood transfusion in the past six months?</p>
                 <label for="sb"></label>
-                <input type="radio" id="sb1" name="surgery">
+                <input type="checkbox" id="sb1" name="surgery">
                 <label for="sb1">Minor</label><br>
-                <input type="radio" id="sb2" name="surgery">
+                <input type="checkbox" id="sb2" name="surgery">
                 <label for="sb2">Major</label><br>
-                <input type="radio" id="sb3" name="bloodtransfusion">
+                <input type="checkbox" id="sb3" name="bloodtransfusion">
                 <label for="sb3">Blood Transfusion</label><br>
-                <input type="radio" id="sb" name="none">
+                <input type="checkbox" id="sb" name="none">
                 <label for="sb4">None</label><br><br>
-                <input type="submit" value="submit">
-            </div>
-            
+                <input type="submit" value="submit"> 
         </form>
+        </div>
     </body>
 </html>
