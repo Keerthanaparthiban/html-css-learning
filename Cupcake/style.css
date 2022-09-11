@@ -111,3 +111,19 @@ footer{
     color: wheat;
     padding: 10px;
 }
+
+/* pseudo class */
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+p::after{
+    content:'...';
+}
+section.join p::first-letter{
+    font-size: 2em;
+}
+article p::first-line{
+    font-weight: bold;
+    font-size: 1em;
+}
