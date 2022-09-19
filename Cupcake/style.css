@@ -3,12 +3,19 @@
     font-family: ques;
 }
 
+html, body {
+    margin:0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+}
 header{
     background-color: rgb(200, 183, 216);
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     font-family: ques;
-    padding: 4px;
+    padding: 3px;
 }
 nav ul{
     white-space: nowrap;
