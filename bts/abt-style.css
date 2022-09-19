@@ -4,6 +4,117 @@
 }
 
 * {
-    background-color: rgb(50, 49, 49);
     font-family: bts;
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.83);
+    background-color: rgba(20, 18, 18, 0.5);
+    background-image: url(images/bts\ header.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.main-nav ul{
+    margin: 0;
+    background-color: rgba(17, 16, 16, 0.177);
+}
+
+.main-nav li{
+    display: inline;
+}
+
+.main-nav a{
+    padding: 1em;
+    color: rgb(112, 108, 108);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main-nav a:hover{
+    background-color: rgba(0, 0, 0, 0.382);
+}
+
+.main-nav{
+    text-align: end;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(46, 45, 45, 0.382);
+}
+
+.main-nav li{
+    padding: 0 2;
+}
+
+.content-section{
+    margin: 1em;
+    font-size: 20px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-weight: normal;
+    color: rgb(19, 19, 19);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.band-name{
+    text-align: center;
+    margin: 5;
+    font-size: 4em;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.band-image{
+    float: left;
+    height: 300px;
+    width: 500px;
+    margin: 15px;
+}
+
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: .25em;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+    max-height: 110px;
+}
+
+.main-footer-container ul{
+    flex-grow: 2;
+    text-align: center;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
 }
