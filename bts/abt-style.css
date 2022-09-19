@@ -1,0 +1,9 @@
+@font-face {
+    font-family: bts;
+    src: url(fonts/SolanoGothicMVB-Bd.ttf);
+}
+
+* {
+    background-color: rgb(50, 49, 49);
+    font-family: bts;
+}
